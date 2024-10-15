@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: pythonapp
+  name: pharma-patient-app
   labels:
-    app: pythonapp
+    app: pharma-patient-app
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: pythonapp
+      app: pharma-patient-app
   template:
     metadata:
       labels:
-        app: pythonapp
+        app: pharma-patient-app
     spec:
       containers:
-      - name: pythonapp
-        image: sibhanayak/pythonapp:latest
+      - name: pharma-patient-app
+        image: sibhanayak/pharma-patient-app:latest
         ports:
         - containerPort: 3000
