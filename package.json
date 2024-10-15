@@ -1,0 +1,12 @@
+{
+  "name": "pharma-app",
+  "version": "1.0.0",
+  "description": "A pharma Node.js application",
+  "main": "appointment-service.js",
+  "scripts": {
+    "start": "node appointment-service.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
