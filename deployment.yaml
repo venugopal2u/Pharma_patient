@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: pharma-patient-app
-        image: sibhanayak/pharma-patient-app:latest
+        image: docker push 326319537952.dkr.ecr.us-east-1.amazonaws.com/pharma_ecr_repo:pharma-patient-app
         ports:
         - containerPort: 3000
