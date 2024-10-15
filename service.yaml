@@ -6,8 +6,8 @@ spec:
   type: NodePort
   ports:
   - name: http
-    port: 3000
-    targetPort: 3000
+    port: 3003
+    targetPort: 3003
     protocol: TCP
   selector:
     app: pharma-patient-app
